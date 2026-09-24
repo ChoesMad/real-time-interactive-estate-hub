@@ -1,0 +1,44 @@
+# ============================
+# Unreal Engine
+# ============================
+Binaries/
+Build/
+Saved/
+DerivedDataCache/
+Intermediate/
+.vs/
+*.sln
+*.slnx
+*.suo
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb
+*.opendb
+
+# UE generated project files (regenerate via "Generate Visual Studio project files")
+Automation_*.sln
+Automation_*.slnx
+
+# ============================
+# Gradle / Spring Boot backend
+# ============================
+Backend/**/.gradle/
+Backend/**/build/
+Backend/**/out/
+Backend/**/.idea/
+Backend/**/*.iml
+Backend/**/HELP.md
+
+# ============================
+# IDE / OS
+# ============================
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+
+# ============================
+# Local environment / secrets
+# ============================
+Backend/**/application-local.properties
